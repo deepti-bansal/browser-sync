@@ -16,7 +16,7 @@ environment:
 
 install:
   - ps: Install-Product node $env:nodejs_version
-  - npm install && cd ./packages/browser-sync && npm install
+  - npm install
 
 test_script: npm test
 
