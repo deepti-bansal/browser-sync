@@ -3,10 +3,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
     "build-all": "lerna run build-all",
-    "test:e2e": "cb cy:*",
-  },
-  "start": {
-    "postinstall": "cd packages/browser-sync && npm install"
+    "test:e2e": "cb cy:*"
   },
   "name": "browser-sync",
   "devDependencies": {
